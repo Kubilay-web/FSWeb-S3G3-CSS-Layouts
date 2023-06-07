@@ -1,1 +1,321 @@
-/* CSS stillerinizi buraya girin */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration:none !important;
+}
+
+
+.header-container {
+    width: 100%;
+    height:450px;
+    background-image: url("/images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.title-container {
+    padding: 135px 0px 0px 0px;
+    margin: 0px auto 0px auto;
+    width: 100%;
+    max-width: 972px;
+    height:302px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    font-size:60px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    margin: 40px 0px 0px 0px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    font-size: 22px;
+    transition: 0.4s all;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.intro-container{
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+    width:100%;
+    max-width:1071px;
+    height:643px;
+    margin:100px auto 0px auto;
+}
+
+.intro-text-container{
+    padding:30px 0px 0px 0px;
+}
+
+.intro-text-container h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.intro-text-container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    color:#000;
+    font-size:14px;
+    line-height:1.8;
+}
+
+button.intro-button{
+    font-family: 'Roboto', sans-serif;
+    background-color:#ff2b4a;
+    width:200px;
+    border:none;
+    padding:10px;
+    color:#fff;
+    cursor:pointer;
+    transition:0.4s all;
+}
+
+button.intro-button:hover{
+    background-color:#cc1a35;
+}
+
+.project-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    height:600px;
+    background-color:#f6f6f6;
+    padding:100px 0px 0px 0px;
+}
+
+.project-container h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:36px;
+    padding:0px 0px 20px 0px;
+}
+
+.project-container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size:14px;
+    padding:0px 0px 40px 0px;
+}
+
+.process-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:100%;
+    gap:30px;
+    max-width:1062px;
+    height:250px;
+}
+
+.design-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:262px;
+    height:251px;
+    padding:77px 0px 0px 0px;
+    background-color:#10c6fc;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    text-transform:uppercase;
+}
+
+.design-container img{
+    padding:0px 0px 40px 0px;
+}
+
+.development-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:262px;
+    height:251px;
+    padding:77px 0px 0px 0px;
+    background-color:#835aeb;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+    line-height:1.3;
+}
+
+.development-container img{
+    padding:0px 0px 40px 0px;
+}
+
+.testing-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:262px;
+    height:251px;
+    padding:77px 0px 0px 0px;
+    background-color:#002453;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+    line-height:1.3;
+}
+
+.testing-container img{
+    padding:0px 0px 40px 0px;
+}
+
+.library-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:262px;
+    height:251px;
+    padding:77px 0px 0px 0px;
+    background-color:#ff2b4a;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+    line-height:1.3;
+}
+
+.library-container img{
+    padding:0px 0px 40px 0px;
+}
+
+.footer-container{
+    margin:40px auto 40px auto;
+    width:235px;
+    text-align:center;
+}
+
+.footer-container h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:30px;
+    padding:0px 0px 30px 0px;
+    color:#000;
+}
+
+.footer-container h3:hover{
+    text-decoration:underline;
+}
+
+
+
+/* Footer */
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .social-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    border-radius: 100%;
+    background: #fff;
+    text-align: center;
+  }
+  .social-button::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    transition: 0.3s;
+  }
+  .social-button:focus, .social-button:hover {
+    color: #fff;
+  }
+  .social-button:focus::after, .social-button:hover::after {
+    width: calc(100% + 1px);
+    height: calc(100% + 1px);
+    margin-left: calc(-50% - 1px);
+  }
+  .social-button i,
+  .social-button svg {
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+  }
+  .social-button i {
+    font-size: 25.6px;
+  }
+  .social-button svg {
+    height: 40%;
+    width: 40%;
+  }
+
+  .social-button--linkedin {
+    color: #0077b5;
+  }
+  .social-button--linkedin::after {
+    background: #0077b5;
+  }
+  .social-button--github {
+    color: #6e5494;
+  }
+  .social-button--github::after {
+    background: #6e5494;
+  }
+  .social-button--codepen {
+    color: #212121;
+  }
+  .social-button--codepen::after {
+    background: #212121;
+  }
+
+/* Footer */

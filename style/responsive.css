@@ -1,0 +1,115 @@
+@media only screen and (max-width:1085px) {
+    .title-container {
+        padding: 135px 0px 0px 0px;
+        margin: 0px auto 0px auto;
+        width: 100%;
+        max-width: 972px;
+        height: 302px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-container h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: #fff;
+        font-size: 34px;
+    }
+
+    .header-container {
+        width: 100%;
+        height: 521px;
+        background-image: url(/images/bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        list-style: none;
+        margin: 40px 0px 0px 0px;
+        text-align: center;
+    }
+
+
+    .intro-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        max-width: 1071px;
+        height: auto;
+        margin: 100px auto 50px auto;
+        text-align: center;
+    }
+
+
+
+    .intro-text-container p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        color: #000;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .intro-text-container h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 0px 20px 0px 20px;
+    }
+
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: #f6f6f6;
+        padding: 100px 0px 60px 0px;
+    }
+
+    .process-container {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        max-width: 1062px;
+        height:auto;
+    }
+
+    .project-container h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size:36px;
+        padding:0px 0px 20px 0px;
+        text-align:center;
+    }
+    
+    .project-container p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        padding: 0px 30px 40px 30px;
+        text-align: center;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:434px) {
+    .intro-container img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
