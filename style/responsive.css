@@ -78,22 +78,22 @@
 
     .process-container {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-items: center;
         width: 100%;
         gap: 30px;
         max-width: 1062px;
-        height:auto;
+        height: auto;
     }
 
     .project-container h2 {
         font-family: 'Raleway', sans-serif;
         font-weight: bold;
-        font-size:36px;
-        padding:0px 0px 20px 0px;
-        text-align:center;
+        font-size: 36px;
+        padding: 0px 0px 20px 0px;
+        text-align: center;
     }
-    
+
     .project-container p {
         font-family: 'Roboto', sans-serif;
         font-weight: normal;
