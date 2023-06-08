@@ -19,8 +19,8 @@
 
     .header-container {
         width: 100%;
-        height: 521px;
-        background-image: url(/images/bg.png);
+        height: 522px;
+        background-image: url("../images/bg.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -53,7 +53,7 @@
         font-family: 'Roboto', sans-serif;
         font-weight: normal;
         color: #000;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 1.5;
         padding: 0px 20px 0px 20px;
     }
@@ -61,7 +61,7 @@
     .intro-text-container h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
-        font-size: 16px;
+        font-size:20px;
         padding: 0px 20px 0px 20px;
     }
 
@@ -78,12 +78,14 @@
 
     .process-container {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
         width: 100%;
         gap: 30px;
         max-width: 1062px;
         height: auto;
+        margin: 0px auto 0px auto;
     }
 
     .project-container h2 {
